@@ -1,4 +1,8 @@
-public class Biggest_Number 
+package com.mycompany.biggestof3nos;
+
+import java.util.Scanner;
+
+public class Biggestof3nos 
 {
     public static void main(String[] args) 
     {
