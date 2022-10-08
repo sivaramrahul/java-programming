@@ -9,5 +9,25 @@ package com.mycompany.shapes;
  * @author RAHUL
  */
 public class Rectangle {
+
+    //field
+    int length;
+    int breadth;
+
+    //constructor
+
+    public Rectangle(int l,int b){
+        length = l;
+        breadth = b;
+    }
     
+
+    //method
+    public int area() {
+        int area = length * breadth;
+        return area;
+    }
+
 }
+    
+

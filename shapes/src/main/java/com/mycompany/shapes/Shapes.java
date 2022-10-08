@@ -12,8 +12,12 @@ package com.mycompany.shapes;
 public class Shapes {
 
     public static void main(String[] args) {
-        Square mySquare = new Square(5);
-        int area = mySquare.area();
+        Circle myCircle = new Circle(6);
+        double area = myCircle.area();
+        System.out.print(area);
+        
+        Rectangle myRectangle = new Rectangle(5,6);
+        area = myRectangle.area();
         System.out.print(area);
     }
 }
