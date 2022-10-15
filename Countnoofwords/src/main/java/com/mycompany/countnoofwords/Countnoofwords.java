@@ -15,12 +15,13 @@ public class Countnoofwords {
  
         int count = 1;
         
-        str = "My name is Rahul";
+        str = "M ";
  
         for (int i = 0; i < str.length()-1; i++)
         {
             char ch = str.charAt(i);
-            if ((ch == ' ') && ( ch + 1 != ' '))
+          
+            if ((ch == ' ') && ( (str.charAt(i + 1)) != ' '))
             {
                 count++;
             }
